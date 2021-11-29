@@ -1,0 +1,52 @@
+div{
+    position:absolute;
+    top: 350px;
+    border: 2px black solid;
+    width:120px;
+    height:200px;
+    background-color:white;
+}
+
+p{
+    position: absolute;
+    left: 10px;
+    top: -20px;
+    font-size: 25px;
+}
+
+.uno{
+    top:365px;
+    z-index: 1;
+    transform: rotate(-25deg);
+    color:red;
+    left: 70px;
+}
+.dos{
+    top:365px;
+    transform: rotate(-15deg);
+    z-index: 2;
+    left: 90px;
+}
+
+.tres{
+    top:365px;
+    left: 110px;
+    color:red;
+    z-index: 3;
+    transform: rotate(-7deg);
+}
+
+.cuatro{
+    top:375px;
+    left: 130px;
+    z-index: 4;
+    transform: rotate(2deg);
+}
+
+.cinco{
+    top:385px;
+    left: 145px;
+    color:red;
+    z-index: 5;
+    transform: rotate(10deg);
+}
